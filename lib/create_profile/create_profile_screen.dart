@@ -29,7 +29,7 @@ class CreateProfileScreen extends StatelessWidget {
                   Row(
                     mainAxisAlignment: MainAxisAlignment.spaceBetween,
                     children: [
-                      Text("Profile", style: textTheme.headline1),
+                      Text("Profile", style: textTheme.bodyLarge),
                       IconButton(
                         icon: const Icon(Icons.edit_note_outlined),
                         onPressed: () {},
@@ -150,7 +150,7 @@ class CreateProfileScreen extends StatelessWidget {
                       ],
                     ),
                     child: Button1(
-                        textStyle: textTheme.button!,
+                        textStyle: textTheme.bodyLarge!,
                         buttonColor: button2Color,
                         text: "Confirm And Save",
                         borderRadius: 30,

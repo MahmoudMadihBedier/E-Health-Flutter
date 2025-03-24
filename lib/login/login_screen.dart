@@ -40,7 +40,7 @@ class LoginScreen extends StatelessWidget {
                       ),
                       SizedBox(height: 5.h),
                       Text("  Login\n  into Your Account",
-                          style: textTheme.headline1),
+                          style: textTheme.displayLarge),
                     ],
                   ),
                 ),
@@ -84,7 +84,7 @@ class LoginScreen extends StatelessWidget {
                     ],
                   ),
                   child: Button1(
-                    textStyle: textTheme.button!,
+                    textStyle: textTheme.bodySmall!,
                     buttonColor: button2Color,
                     text: "Login",
                     borderRadius: 30,
@@ -94,7 +94,7 @@ class LoginScreen extends StatelessWidget {
                 SizedBox(height: 16.h),
                 TextButton(
                     child: Text("Forgot Your Password",
-                        style: textTheme.bodyText1),
+                        style: textTheme.bodyLarge),
                     onPressed: () {
                       Navigator.pushNamed(context, ForgotPasswordScreen.routeName);
                     }),
@@ -102,14 +102,14 @@ class LoginScreen extends StatelessWidget {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: [
-                    Text("Dont have an account?", style: textTheme.caption),
+                    Text("Dont have an account?", style: textTheme.bodySmall),
                     SizedBox(width: 14.w),
                     TextButton(
                       onPressed: () {
                         Navigator.of(context)
                             .pushReplacementNamed(SignUpScreen.routeName);
                       },
-                      child: Text("Sign Up", style: textTheme.overline),
+                      child: Text("Sign Up", style: textTheme.bodySmall),
                     ),
                   ],
                 ),

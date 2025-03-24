@@ -33,7 +33,7 @@ class CreateNewPassScreen extends StatelessWidget {
                         },
                       ),
                       SizedBox(width: 0.w),
-                      Text("Create New Password", style: textTheme.headline1),
+                      Text("Create New Password", style: textTheme.displayLarge),
                     ],
                   ),
                   SizedBox(height: 50.h),
@@ -88,7 +88,7 @@ class CreateNewPassScreen extends StatelessWidget {
                       ],
                     ),
                     child: Button1(
-                      textStyle: textTheme.button!,
+                      textStyle: textTheme.bodySmall!,
                       buttonColor: button2Color,
                       text: "Save",
                       borderRadius: 30,

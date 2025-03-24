@@ -54,7 +54,7 @@ class MyApp extends StatelessWidget {
         debugShowCheckedModeBanner: false,
         title: 'Aderis Health App',
         theme: ThemeData(
-          backgroundColor: mainColor,
+          // secondaryHeaderColor: mainColor,
           primarySwatch: Colors.blue,
         ),
         home: const SplashScreen(),

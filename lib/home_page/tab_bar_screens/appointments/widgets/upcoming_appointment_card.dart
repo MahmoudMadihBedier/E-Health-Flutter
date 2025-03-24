@@ -74,7 +74,8 @@ class AppointementCard extends StatelessWidget {
                     ElevatedButton(
                       onPressed: () {},
                       style: ElevatedButton.styleFrom(
-                        primary: Colors.grey,
+                        foregroundColor: Colors.black,   
+                        backgroundColor: Colors.white,
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10.w),
                         ),
@@ -94,7 +95,7 @@ class AppointementCard extends StatelessWidget {
                         shape: RoundedRectangleBorder(
                           borderRadius: BorderRadius.circular(10.w),
                         ),
-                        primary: mainColor,
+                        foregroundColor: Colors.grey,
                       ),
                       child: const Text(
                         "Reschedule",

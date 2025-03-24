@@ -25,7 +25,7 @@ class Home extends StatelessWidget {
           child: Column(
             children: [
               SizedBox(height: 20.h),
-              const SearchBar(),
+              //const SearchBar(),
               SizedBox(height: 10.h),
               const MainHeading(),
               Container(

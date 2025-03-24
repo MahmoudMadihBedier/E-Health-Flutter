@@ -100,7 +100,7 @@ class PrescriptionCard extends StatelessWidget {
                       );
                     },
                     style: ElevatedButton.styleFrom(
-                      primary: const Color.fromRGBO(87, 98, 182, 0.2),
+                      foregroundColor: Colors.black,
                       shape: RoundedRectangleBorder(
                         borderRadius: BorderRadius.circular(20),
                       ),

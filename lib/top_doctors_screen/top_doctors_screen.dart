@@ -29,7 +29,7 @@ class TopDoctorsScreen extends StatelessWidget {
             child: Column(
               children: [
                 SizedBox(height: 30.h),
-                const SearchBar(),
+                //const SearchBar(),
                 SizedBox(height: 30.h),
                 Container(
                   margin: EdgeInsets.symmetric(horizontal: 20.w),
@@ -50,7 +50,7 @@ class TopDoctorsScreen extends StatelessWidget {
                   width: 368.w,
                   child: ElevatedButton(
                     style: ElevatedButton.styleFrom(
-                      primary: Colors.white70,
+                      foregroundColor: Colors.white70,
                     ),
                     onPressed: () {},
                     child: const Text(
